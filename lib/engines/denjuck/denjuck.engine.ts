@@ -1,4 +1,3 @@
-// @deno-types="https://deno.land/x/denjucks/mod.d.ts"
 import denjucks from "denjucks";
 import type { Engine,ViewConfig } from "../../viewEngine.type.ts";
 
