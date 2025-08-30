@@ -1,5 +1,4 @@
 //! engines
-export { dejsEngine } from "./lib/engines/dejs/dejs.engine.ts";
 export { etaEngine } from "./lib/engines/eta/eta.engine.ts";
 
 //! type

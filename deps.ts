@@ -7,4 +7,3 @@ export { green, blue } from "@std/fmt/colors";
 export { Application } from "@oak/oak";
 
 export * as eta from "eta";
-export * as dejs from "dejs";

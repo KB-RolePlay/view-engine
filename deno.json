@@ -6,7 +6,6 @@
     "@std/fs": "jsr:@std/fs@^1.0.19",
     "@std/testing": "jsr:@std/testing@^1.0.15",
     "eta": "npm:eta@^3.5.0",
-    "path": "npm:path@^0.12.7",
-    "dejs": "https://deno.land/x/dejs@0.10.2/mod.ts"
+    "path": "npm:path@^0.12.7"
   }
 }
