@@ -2,12 +2,12 @@ import type {
   Context,
   RouteParams,
   State,
-} from "https://deno.land/x/oak@v10.6.0/mod.ts";
+} from "@oak/oak";
 
 import type { ViewConfig,Adapter,Engine } from "../../viewEngine.type.ts";
 import { getTemplate } from "./oak.utils.ts";
 
-declare module "https://deno.land/x/oak@v10.6.0/mod.ts" {
+declare module "@oak/oak" {
   // App level Context
   interface Context {
     render: (fileName: string, data?: object) => void;
