@@ -1,5 +1,8 @@
 ## 🚀 View Engine
 
+In this fork, we removed everything that we didn't use and upgrade versions to support Deno V2.
+We know, the code is so bad but we don't want to spend time on the upgrade.
+
 ![View Engine Logo](./docs/icon.png)
 
 > A Template View Engine for Deno frameworks
