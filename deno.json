@@ -9,6 +9,5 @@
     "path": "npm:path@^0.12.7",
     "dejs": "https://deno.land/x/dejs@0.10.2/mod.ts",
     "pug": "https://deno.land/x/pug@v0.1.3/mod.ts",
-    "denjucks": "https://raw.githubusercontent.com/lumeland/denjucks/v2.0.0/mod.js"
   }
 }
