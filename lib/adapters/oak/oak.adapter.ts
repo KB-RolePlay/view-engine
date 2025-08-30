@@ -2,12 +2,12 @@ import type {
   Context,
   RouteParams,
   State,
-} from "@oak/oak";
+} from "jsr:@oak/oak@^17.1.6";
 
 import type { ViewConfig,Adapter,Engine } from "../../viewEngine.type.ts";
 import { getTemplate } from "./oak.utils.ts";
 
-declare module "@oak/oak" {
+declare module "jsr:@oak/oak@^17.1.6" {
   // App level Context
   interface Context {
     render: (fileName: string, data?: object) => void;
